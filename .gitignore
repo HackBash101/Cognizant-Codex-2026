@@ -141,3 +141,13 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+cat > .gitignore << EOF
+node_modules/
+.env
+dist/
+.DS_Store
+*.log
+coverage/
+.nyc_output/
+EOF
